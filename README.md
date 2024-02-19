@@ -1,1 +1,1 @@
-é pra mandar as atividade no email aptw.trabalho@gmail.com
+é pra mandar as atividade no email aptw.trabalhos@gmail.com
