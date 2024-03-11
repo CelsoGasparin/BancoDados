@@ -1,7 +1,7 @@
 pesquisar por algumas coisas:alguma ficha já existente.talvez o Chris ou do Baldur's,se faltar algum detalhe eu tiro delas mesmo pra evitar trabalho demais(lembrar de adaptar pro universo do projeto quando tirar algo).
 
 
-os status dependeriam dos detalhes do universo(minha melhor escolha provavelemente é algo medieval),talvez ainda não esteja completo.
+alguns status dependeriam dos detalhes do universo(minha melhor escolha provavelemente é algo medieval),talvez ainda não esteja completo.
 
 ID/PLAYER(P só existe se o RPG for de mesa)/N/STR/DEX/CON/INT/CHR 
 
@@ -15,8 +15,20 @@ Perícias seriam entidades, com um atributo derivado: um atributo derivado de um
 
 
 
-Armas
+*Armas*
 
 Uma arma leve teria uma rolagem com DEX.
 Uma arma média ou pesada teria uma rolagem com STR.
 não ter proeficiência com uma arma daria uma desvatagem.
+armas teriam habilidades
+
+
+
+
+
+
+
+
+
+Precisaria de uma tabela para os danos que o PLAYER já tomou durante toda a vida.Oque definiria qual personagem tomou qual dano seriam os IDs,mas provavelmente também usaria os nomes pra facilitar entender quem atacou quem.
+Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que status o PLAYER usou,que perícia,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou, e todos os dados usados
