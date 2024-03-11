@@ -1,1 +1,20 @@
+pesquisar por algumas coisas:alguma ficha já existente.talvez o Chris ou do Baldur's,se faltar algum detalhe eu tiro delas mesmo pra evitar trabalho demais(lembrar de adaptar pro universo do projeto quando tirar algo).
 
+
+os status dependeriam dos detalhes do universo(minha melhor escolha provavelemente é algo medieval),talvez ainda não esteja completo.
+
+ID/PLAYER(P só existe se o RPG for de mesa)/N/STR/DEX/CON/INT/CHR 
+
+o HP seria um atributo composto(talvez um entidade, pra poder marcar os ataques;eu deveria salvar ataques que o PLAYER desvia???), um valor base junto com um derivado da CON.
+DEX afetaria quantos metros um PLAYER consegue se mover em um turno.
+Perícias seriam entidades, com um atributo composto, um atributo derivado de um status específico e possíveis mudanças dependendo de skills ou efeitos que o  
+
+
+
+
+
+
+
+Armas
+Uma arma leve teria uma rolagem com DEX.
+Uma arma média ou pesada teria uma rolagem com STR.
