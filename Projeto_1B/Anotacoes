@@ -5,6 +5,8 @@ alguns status dependeriam dos detalhes do universo(minha melhor escolha provavel
 
 ID/PLAYER(P só existe se o RPG for de mesa)/N/STR/DEX/CON/INT/CHR 
 
+R/SUBR./CLASSE/
+
 o HP seria um atributo derivado(talvez um entidade, pra poder marcar os ataques;eu deveria salvar ataques que o PLAYER desvia???), um valor base + um derivado da CON.
 DEX afetaria quantos metros um PLAYER consegue se mover em um turno.
 Perícias seriam entidades, com um atributo derivado: um atributo derivado de um status específico + possíveis mudanças dependendo de skills ou efeitos que o PLAYER tenha 
@@ -20,7 +22,7 @@ Perícias seriam entidades, com um atributo derivado: um atributo derivado de um
 Uma arma leve teria uma rolagem com DEX.
 Uma arma média ou pesada teria uma rolagem com STR.
 não ter proeficiência com uma arma daria uma desvatagem.
-armas teriam habilidades
+armas teriam habilidades,algumas especiais dos tipos de armas
 
 
 
@@ -30,5 +32,5 @@ armas teriam habilidades
 
 
 
-Precisaria de uma tabela para os danos que o PLAYER já tomou durante toda a vida.Oque definiria qual personagem tomou qual dano seriam os IDs,mas provavelmente também usaria os nomes pra facilitar entender quem atacou quem.
-Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que status o PLAYER usou,que perícia ele usou,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou e todos os dados usados(isso incluiriao tipo dos dados)
+Precisaria de uma tabela para os danos que o PLAYER já tomou durante toda a vida.Oque definiria qual personagem tomou qual dano e qual inflingiu seriam os IDs,mas provavelmente também usaria os nomes pra facilitar entender quem atacou quem,o dano que o PLAYER tomou e todos os dados desse dano(tipo do dado incluido).
+Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que status o PLAYER usou,que perícia ele usou,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou e todos os dados usados(isso incluiria o tipo dos dados)
