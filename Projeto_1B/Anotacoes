@@ -5,10 +5,10 @@ os status dependeriam dos detalhes do universo(minha melhor escolha provavelemen
 
 ID/PLAYER(P só existe se o RPG for de mesa)/N/STR/DEX/CON/INT/CHR 
 
-o HP seria um atributo composto(talvez um entidade, pra poder marcar os ataques;eu deveria salvar ataques que o PLAYER desvia???), um valor base junto com um derivado da CON.
+o HP seria um atributo derivado(talvez um entidade, pra poder marcar os ataques;eu deveria salvar ataques que o PLAYER desvia???), um valor base + um derivado da CON.
 DEX afetaria quantos metros um PLAYER consegue se mover em um turno.
-Perícias seriam entidades, com um atributo composto, um atributo derivado de um status específico e possíveis mudanças dependendo de skills ou efeitos que o  
-
+Perícias seriam entidades, com um atributo derivado: um atributo derivado de um status específico + possíveis mudanças dependendo de skills ou efeitos que o PLAYER tenha 
+                           um atributo simples: os detalhes da perícia,onde e como podem ser usadas
 
 
 
@@ -16,5 +16,7 @@ Perícias seriam entidades, com um atributo composto, um atributo derivado de um
 
 
 Armas
+
 Uma arma leve teria uma rolagem com DEX.
 Uma arma média ou pesada teria uma rolagem com STR.
+não ter proeficiência com uma arma daria uma desvatagem.
