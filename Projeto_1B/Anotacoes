@@ -34,3 +34,4 @@ armas teriam habilidades,algumas especiais dos tipos de armas, ou talvez por cau
 
 Precisaria de uma tabela para os danos que o PLAYER já tomou durante toda a vida.Oque definiria qual personagem tomou qual dano e qual inflingiu seriam os IDs,mas provavelmente também usaria os nomes pra facilitar entender quem atacou quem,o dano que o PLAYER tomou e todos os dados desse dano(tipo do dado incluido).
 Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que Atributo o PLAYER usou,que perícia ele usou,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou e todos os dados usados(isso incluiria o tipo dos dados)
+um tipo seria um elemento,exemplo:dano de corte,dano de gelo, dano de fogo.
