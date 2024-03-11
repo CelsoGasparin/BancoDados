@@ -31,4 +31,4 @@ armas teriam habilidades
 
 
 Precisaria de uma tabela para os danos que o PLAYER já tomou durante toda a vida.Oque definiria qual personagem tomou qual dano seriam os IDs,mas provavelmente também usaria os nomes pra facilitar entender quem atacou quem.
-Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que status o PLAYER usou,que perícia,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou, e todos os dados usados
+Precisaria de uma tabela para todas as vezes que o PLAYER rolar um dado.precisaria saber que status o PLAYER usou,que perícia ele usou,se ele usou alguma habilidade ou não junto,o ID e nome de quem rolou e todos os dados usados(isso incluiriao tipo dos dados)
