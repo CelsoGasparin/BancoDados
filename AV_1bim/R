@@ -1,2 +1,7 @@
 1R:A diferença entre o processamento de dados entre os dois é a eficiência é a segurança. Em um arquivo convencional não existiria uma estrutura mais complexa de permissões que impediria outras
-máquinas de manipular os arquivos, além de que não é possível que mais de um usuário de manipule o mesmo arquivo
+máquinas de manipular os arquivos, além de que não é possível que mais de um usuário de manipule o mesmo arquivo. Agora em um SGBD permissões teriam uma importância maior e vários usuários ao 
+mesmo tempo teriam acesso ao sistema ao mesmo tempo.
+
+
+
+
