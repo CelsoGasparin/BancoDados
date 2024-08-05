@@ -14,5 +14,11 @@ A-Um Banco de Dados é um lugar onde se guarda informações.(socorro preciso de
 
 B-Um SGBD seria um sistema que te permite manipular os dados de um Banco de dados, além de ter uma segurança aprimorada.(favor incluir exemplos de "manipular" depois)
 
-C
+C-É a fase que vem após a análise de requisitos em um projeto de banco de dados. Nesta etapa, traduzimos os requisitos em diagramas e modelos para representar visualmente os conceitos e processos de negócio identificados anteriormente.
+
+D-um modelo lógico de dados é construído tomando as descrições de dados representadas em um modelo conceitual de dados e introduzindo elementos associados, definições e maior contexto para a estrutura dos dados.
+
+E-Um modelo físico de dados introduz o contexto específico do banco de dados ausente em modelos conceituais e lógicos de dados. Ele representa as tabelas, colunas, tipos de dados, visualizações, restrições, índices e procedimentos dentro do banco de dados e/ou as informações comunicadas durante os processos de computador.
+
+5R:a redundância é ter a mesma informação em dois lugares(hardware) diferentes.
 
