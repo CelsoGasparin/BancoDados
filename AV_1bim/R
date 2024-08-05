@@ -31,3 +31,7 @@ Relacionamento-São relacionamentos entre as entidades.
 Atributo-é um dado associado a uma Entidade ou a um relacionamento.
 
 7R:O papel de uma entidade é essencial pois sem elas o relacionamento não existiria
+
+
+8R:Máxima:É o número máximo de ocorrências de uma entidade A que está associado com ocorrências de outra entidade B. A
+Mínimo: É o número mínimo de ocorrências de uma entidade A que está associado com ocorrências de outra entidade B.
