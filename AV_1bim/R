@@ -22,3 +22,9 @@ E-Um modelo físico de dados introduz o contexto específico do banco de dados a
 
 5R:a redundância é ter a mesma informação em dois lugares(hardware) diferentes.
 
+6R:um sistema de um hospital é um exemplo de um banco de dados.
+
+7R:Entidade-são objetos do mundo real representadas como informações em bancos de dados.
+
+Relacionamento-São relacionamentos entre as entidades
+
