@@ -20,13 +20,14 @@ D-um modelo lógico de dados é construído tomando as descrições de dados rep
 
 E-Um modelo físico de dados introduz o contexto específico do banco de dados ausente em modelos conceituais e lógicos de dados. Ele representa as tabelas, colunas, tipos de dados, visualizações, restrições, índices e procedimentos dentro do banco de dados e/ou as informações comunicadas durante os processos de computador.
 
-5R:a redundância é ter a mesma informação em dois lugares(hardware) diferentes.
+4R:a redundância é ter a mesma informação em dois lugares(hardware) diferentes.
 
-6R:um sistema de um hospital é um exemplo de um banco de dados.
+5R:um sistema de um hospital é um exemplo de um banco de dados.
 
-7R:Entidade-são objetos do mundo real representadas como informações em bancos de dados.
+6R:Entidade-são objetos do mundo real representadas como informações em bancos de dados.
 
 Relacionamento-São relacionamentos entre as entidades.
 
 Atributo-é um dado associado a uma Entidade ou a um relacionamento.
 
+7R:O papel de uma entidade é essencial pois sem elas o relacionamento não existiria
