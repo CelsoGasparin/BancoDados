@@ -26,5 +26,7 @@ E-Um modelo físico de dados introduz o contexto específico do banco de dados a
 
 7R:Entidade-são objetos do mundo real representadas como informações em bancos de dados.
 
-Relacionamento-São relacionamentos entre as entidades
+Relacionamento-São relacionamentos entre as entidades.
+
+Atributo-é um dado associado a uma Entidade ou a um relacionamento.
 
