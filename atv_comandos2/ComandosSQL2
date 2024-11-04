@@ -1,0 +1,47 @@
+create database Livros;
+use Livros;
+
+
+create table Autores(
+idAutor int primary key
+,nome VARCHAR(100)
+,nacionalidade VARCHAR(50)
+);
+
+
+create table Categorias (
+idCategoria int primary key
+,descricao varchar(50)
+);
+
+
+create table Livros( 
+idLivros int primary key
+,titulo varchar(100)
+,ano_publicacao YEAR,
+idAutor int,
+foreign key(idAutor) references Categorias(idCategoria)
+);
+
+
+
+alter table Livros
+add column preco decimal(5,2);
+
+alter table Categorias
+add column quantidade int;
+
+
+
+insert into Autores values
+(01,"Jonas","Argentina"),
+(02,"Marcos Pereira","Holanda"),
+(03,"Sofia","Suécia");
+
+insert into Categorias values
+(),
+(),
+();
+
+
+
