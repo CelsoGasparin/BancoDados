@@ -20,7 +20,7 @@ idLivros int primary key
 ,titulo varchar(100)
 ,ano_publicacao YEAR,
 idAutor int,
-foreign key(idAutor) references Categorias(idCategoria)
+foreign key(idAutor) references Autores(idAutor)
 );
 
 
@@ -34,14 +34,52 @@ add column quantidade int;
 
 
 insert into Autores values
-(01,"Jonas","Argentina"),
-(02,"Marcos Pereira","Holanda"),
-(03,"Sofia","Suécia");
+(1,"Jonas","Argentina"),
+(2,"Marcos Pereira","Holanda"),
+(3,"Sofia","Suécia");
+
+insert into Autores values
+(4,"Ruan","Brasil"); /*Autor extra*/
+
 
 insert into Categorias values
-(),
-(),
-();
+(1,"Ficçaõ",123),
+(2,"ação",321),
+(3,"SciFi",456);
 
 
+insert into Livros values
+(1,"LivroMuitoLegal",2020,2,5.20),
+(2,"Livro ficticio",1921,3,28.65),
+(3,"LivroNaoMuitoLegal",2024,1,0.00),
+(4,"LivroRuim",1951,4,10.50); 
+
+select * from Livros;
+select * from Autores;
+select * from Categorias;
+
+
+update Categorias
+set descricao = "Romance"
+where idCategoria = 1;
+
+update Livros
+set preco = preco +(preco*0.1)
+where ano_publicacao < 2000;
+
+update Autores 
+set nome = "Gabriel García Márquez"
+where nome = "Ruan";
+
+delete 
+from Livros
+where ano_publicacao < 1950;
+
+
+delete
+from Categorias
+where quantidade < 5; 
+
+
+alter table Categorias drop quantidade;
 
