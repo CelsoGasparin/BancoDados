@@ -1,0 +1,67 @@
+create database atv26;
+use atv26;
+
+create table Funcionarios (
+
+	idFunc int primary key,
+	PrimeiroNome varchar(30),
+	SegundoNome varchar(30),
+    UltimoNome varchar(30),
+    DataNasc date,
+	cpf char(11),
+    rg varchar(40),/*NÂO ME LEMBRO QUANTOS DIGITOS*/
+	endereco varchar(50),
+    cidade varchar(30),
+    fone varchar(15),
+    idDept int,
+    foreign key(idDept) references Departamentos(idDept),
+    funcao varchar(30),
+    salario int
+);
+
+create table Departamentos(
+
+	idDept int primary key,
+    nomeDept varchar(30), 
+	localizacao varchar(40)
+
+);
+
+alter table Departamentos
+add column idFuncGer int;
+
+
+alter table Departamentos
+add constraint fk_Departamentos_Funcionarios
+foreign key(idFuncGer)
+references Funcionarios(idFunc);
+
+
+select PrimeiroNome,SegundoNome from Funcionarios
+order by SegundoNome;
+
+select * from Funcionarios
+order by cidade;
+
+select * from Funcionarios
+where salario > 1000
+order by PrimeiroNome,SegundoNome,UltimoNome;
+
+select dataNasc,PrimeiroNome from Funcionarios
+order by dataNasc asc;
+
+select PrimeiroNome,SegundoNome,UltimoNome,fone from Funcionarios
+where fone != null;
+
+select PrimeiroNome,SegundoNome,UltimoNome,salario from Funcionarios;
+
+select PrimeiroNome,Departamentos.nomeDept,funcao from Funcionarios
+join Departamentos on Departamentos.idDept = Funcionarios.idDept;
+
+select nomeDept,Funcionarios.PrimeiroNome from Departamentos
+join Funcionarios on Funcionarios.idFunc = Departamentos.idFuncGer;
+
+
+
+
+

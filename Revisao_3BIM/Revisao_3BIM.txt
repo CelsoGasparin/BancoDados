@@ -1,0 +1,70 @@
+1-c) INSERT
+2-d) UPDATE
+3-a) CREATE TABLE
+4-a) Somente registros específicos com condição de exclusão
+5-c) Remove todos os registros,mas mantém a estrutura da tabela
+6-b) ALTER TABLE
+7-b) ALTER COLUMN
+8-b) DROP TABLE
+9-a) SELECT * FROM clientes
+10-a) Adcionar um novo registro com valores para as colunas especificadas
+11-c) TRUNCATE
+12-a) ALTER TABLE
+13-a) ALTER TABLE pedidos RENAME TO pedidos_venda
+14-a) CREATE DATABASE
+15-a) ALTER TABLE tabela DROP COLUMN coluna
+16-a) WHERE
+17-d) INSERT
+18-d) OMITIR o valor
+19-c) Alterar a estrutura adicionando regras.
+20-a) SELECT DISTINCT coluna FROM tabela
+21-e) INSERT INTO SELECT
+
+22-d) SELECT Funcionarios.nome FROM Funcionarios JOIN Dependentes
+ON Funcionarios.id = Dependentes.funcionario_id WHERE
+Funcionarios.salario > 3000 AND Funcionarios.cidade = 'Bragança' 
+AND Funcionarios.estado = 'SP';
+23-a) SQL
+
+24-d) VARCHAR (tamanho): sequência de caracteres de tamanho variável.
+Os espaços não ocupados pelo texto não são armazenados, são
+ignorados, com capacidade para armazenar de 1 a 255 caracteres.
+
+25-a)drop table questoes
+
+
+26
+create database atv26;
+use atv26;
+
+create table Funcionarios (
+
+	idFunc int primary key,
+	PrimeiroNome varchar(30),
+	SegundoNome varchar(30),
+    UltimoNome varchar(30),
+    DataNasc date,
+	cpf char(11),
+    rg varchar(40),/*NÂO ME LEMBRO QUANTOS DIGITOS*/
+	endereco varchar(50),
+    cidade varchar(30),
+    fone varchar(15),
+    idDept int,
+    foreign key(idDept) references Departamentos(idDept),
+    funcao varchar(30),
+    salario int
+);
+
+create table Departamentos(
+
+	idDept int primary key,
+    nomeDept varchar(30), 
+	localizacao varchar(40),
+    idFuncGer int,
+    foreign key(idFuncGer) references Funcionarios(idFunc)
+
+
+);
+
+
+
