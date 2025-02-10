@@ -1,0 +1,10 @@
+1. O que mais chamou sua atenção na estrutura do banco de dados dos projetos?
+R:O que mais me chamou atenção foi que eles usaram muito menos entidades do que eu esperava no primeiro projeto, e utilizaram muito mais doque eu esperava no segundo.
+
+
+2. Quais desafios você imagina que o time enfrentou ao modelar os bancos de dados?
+R:considerando oque os professores falaram sobre os projetos, eles provavelmente tiveram alguns problemas aplicando alguns conceitos do modelo conceitual, como em alguns momentos onde as cardinalidades estavam erradas.
+
+
+3. Qual a importância do banco de dados para o funcionamento do sistema?
+R: O banco de dados é importante para o sistema pois ele permite que informações de um programa persistam até quando o programa não está rodando, além de ser uma maneira mais coesa e organizada de armazenar dados.
